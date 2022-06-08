@@ -24,4 +24,20 @@
             </plugin>
         </plugins>
     </build>
+    <profiles>
+        <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <sonar.host.url>
+                    http://localhost:9000
+                </sonar.host.url>
+                <sonar.login>
+                    3d157837505d0ca7d998a46b2b7f78b8fbb6e392
+                </sonar.login>
+            </properties>
+        </profile>
+    </profiles>
 </project>

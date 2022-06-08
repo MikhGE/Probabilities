@@ -1,11 +1,20 @@
-package com.mikhge.ProbabilitiesPackage;
+package com.mikhge.probabilities;
 
 import java.util.HashSet;
 import java.util.Set;
 
 public class Event {
+    private static Long countEvents = 0L;
     private Long id;
     private Set<Outcome> outcomes = new HashSet<>();
+
+    public Event() {
+        this.id = countEvents++;
+    }
+
+    public Long getId() {
+        return id;
+    }
 
     public Set<Outcome> getOutcomes() {
         return outcomes;

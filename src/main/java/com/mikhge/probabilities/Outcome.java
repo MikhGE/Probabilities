@@ -1,4 +1,4 @@
-package com.mikhge.ProbabilitiesPackage;
+package com.mikhge.probabilities;
 
 public class Outcome {
     private static Long countOutcomes = 0L;
@@ -6,5 +6,9 @@ public class Outcome {
 
     public Outcome() {
         this.id = countOutcomes++;
+    }
+
+    public Long getId() {
+        return id;
     }
 }

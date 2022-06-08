@@ -1,4 +1,4 @@
-package com.mikhge.ProbabilitiesPackage;
+package com.mikhge.probabilities;
 
 import java.util.*;
 import java.util.stream.Collectors;

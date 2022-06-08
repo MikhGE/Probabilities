@@ -1,8 +1,8 @@
 package com.mikhge;
 
-import com.mikhge.ProbabilitiesPackage.Event;
-import com.mikhge.ProbabilitiesPackage.Outcome;
-import com.mikhge.ProbabilitiesPackage.ProbabilitySpace;
+import com.mikhge.probabilities.Event;
+import com.mikhge.probabilities.Outcome;
+import com.mikhge.probabilities.ProbabilitySpace;
 
 import java.util.HashSet;
 import java.util.Set;
